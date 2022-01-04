@@ -1,0 +1,1 @@
+To see rendered chart run: `helm install --generate-name --dry-run mychart`
