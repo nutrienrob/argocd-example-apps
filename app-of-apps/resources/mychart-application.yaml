@@ -14,7 +14,6 @@ spec:
       - CreateNamespace=true
   source:
     repoURL: 'https://github.com/nutrienrob/argocd-example-apps.git'
-    targetRevision: 'tst/helm-value-override'
     chart: 'mychart'
     helm:
       values: |
