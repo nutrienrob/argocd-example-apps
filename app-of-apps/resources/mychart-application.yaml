@@ -13,7 +13,8 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: 'https://github.com/nutrienrob/argocd-example-apps/tree/tst/helm-value-override'
+    repoURL: 'https://github.com/nutrienrob/argocd-example-apps.git'
+    targetRevision: 'tst/helm-value-override'
     chart: 'mychart'
     helm:
       values: |
