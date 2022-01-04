@@ -13,8 +13,8 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: 'https://github.com/nutrienrob/argocd-example-apps.git'
-    chart: 'mychart'
+    repoURL: https://github.com/nutrienrob/argocd-example-apps.git
+    path: mychart
     targetRevision: HEAD
     helm:
       values: |
