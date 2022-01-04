@@ -15,6 +15,7 @@ spec:
   source:
     repoURL: 'https://github.com/nutrienrob/argocd-example-apps.git'
     chart: 'mychart'
+    targetRevision: HEAD
     helm:
       values: |
         favoriteDrink: tea
