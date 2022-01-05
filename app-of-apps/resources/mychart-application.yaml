@@ -13,9 +13,9 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: https://github.com/nutrienrob/argocd-example-apps.git
-    path: mychart
-    targetRevision: HEAD
+    repoURL: 'https://nutrienrob.github.io/argocd-example-apps'
+    chart: 'mychart'
+    targetRevision: '0.1.0'
     helm:
       values: |
         favoriteDrink: tea
